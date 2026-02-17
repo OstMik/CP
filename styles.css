@@ -5,7 +5,7 @@
   --page-margin: 14mm;
   --text-color: #1f1f1f;
   --muted-color: #5c5c5c;
-  --accent-color: #dd6300;
+  --accent-color: #2E7D32;
   --border-color: var(--muted-color);
 }
 
@@ -163,6 +163,10 @@ li {
 
 .main-column p {
   font-size: 10.5pt;
+}
+
+.intro-paragraph {
+  font-size: 9.9pt;
 }
 
 .page-footer {
