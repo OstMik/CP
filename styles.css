@@ -5,7 +5,7 @@
   --page-margin: 14mm;
   --text-color: #1f1f1f;
   --muted-color: #5c5c5c;
-  --accent-color: #dd6300;
+  --accent-color: #2E7D32;
   --border-color: var(--muted-color);
 }
 
@@ -17,11 +17,19 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-family: "Manrope", "Inter", Helvetica, Arial, sans-serif;
   color: var(--text-color);
   background: #ffffff;
   font-variant-ligatures: none;
   font-feature-settings: "liga" 0, "clig" 0;
+}
+
+h1,
+h2,
+.section-title,
+.page-title {
+  font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+  color: var(--accent-color);
 }
 
 body {
@@ -122,7 +130,6 @@ body {
   padding-bottom: 3px;
   break-inside: avoid;
   page-break-inside: avoid;
-  color: var(--accent-color);
 }
 
 .sidebar-section,
